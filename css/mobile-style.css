@@ -80,7 +80,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: .5rem;
+    /* gap: .5rem; */
 }
 .icon-wrapper {
     border-radius: 50%;
@@ -92,6 +92,10 @@ html {
 }
 .icon-wrapper i {
     color: white;
+}
+
+.empty-space {
+    width: .5rem;
 }
 
 .attribution {
